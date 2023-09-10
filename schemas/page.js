@@ -27,6 +27,11 @@ export default {
       }
     },
     {
+      name: 'page_carousel',
+      title: 'Page Carousel',
+      type: 'carousel'
+    },
+    {
       name: 'components',
       title: 'Components',
       type: 'array',

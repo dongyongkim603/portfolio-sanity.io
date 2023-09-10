@@ -1,7 +1,7 @@
 import page from './page';
-import selling_point from './selling_point';
+import carousel from './carousel'
 
 export const schemaTypes = [
   page,
-  // selling_point
+  carousel
 ]
