@@ -22,7 +22,7 @@ export default {
           name: 'carousel_image',
           type: 'image',
           options: {
-            hotspot: 'true',
+            hotspot: true,
             metadata: [
               'exif',
               'location',

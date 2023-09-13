@@ -44,7 +44,14 @@ export default {
             {type: 'url', name: 'button_link'},
             {type: 'string', name: 'headline'},
             {type: 'text', name: 'content'},
-            {type: 'image', name: 'main_image'}
+            {
+              type: 'image',
+              name: 'main_image',
+              type: 'image',
+              options: {
+                hotspot: true
+              }
+            }
           ]
         }
       ]
