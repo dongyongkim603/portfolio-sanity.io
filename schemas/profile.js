@@ -31,15 +31,8 @@ export default {
       type: 'array',
       of: [
         { 
-          name: 'carousel_image',
-          type: 'image',
-          options: {
-            hotspot: 'true',
-            metadata: [
-              'exif',
-              'location',
-            ]
-          }
+          type: 'post_image',
+          name: 'user_image',
         }
       ]
     }
