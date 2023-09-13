@@ -1,7 +1,7 @@
 export default {
-  name: 'selling_point',
+  name: 'post_image',
   type: 'document',
-	title: 'Selling Point',
+	title: 'Post Image',
   fields: [
     {
       name: 'post_id',
@@ -9,9 +9,9 @@ export default {
       title: 'Post Id'
     },
     {
-      name: 'post_image',
+      name: 'image',
       type: 'image',
-      title: 'Post Image',
+      title: 'Image',
       options: {
         hotspot: 'true',
         metadata: [
