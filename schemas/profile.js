@@ -10,7 +10,7 @@ export default {
     },
     {
       name: 'uid',
-      type: 'string',
+      type: 'number',
       title: 'User Id'
     },
     {
