@@ -10,7 +10,7 @@ export default {
     },
     {
       name: 'uid',
-      type: 'string',
+      type: 'number',
       title: 'User Id'
     },
     {
@@ -18,7 +18,7 @@ export default {
       title: 'Profile Image',
       type: 'image',
       options: {
-        hotspot: 'true',
+        hotspot: true,
         metadata: [
           'exif',
           'location',
